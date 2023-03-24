@@ -1,0 +1,22 @@
+.thumbnail {
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    width: 140px;
+  }
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  outline: none;
+}
